@@ -126,18 +126,6 @@ A local-first Linux application for monitoring and analyzing multiple logs in re
 
 > My goal is not only to find defects. It is to build systems that prevent them — and make the remaining failures fast to understand.
 
-## 📊 GitHub at a glance
-
-<div align="center">
-
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=DanGiun&amp;show_icons=true&amp;include_all_commits=true&amp;rank_icon=github&amp;bg_color=0B1020&amp;title_color=22D3EE&amp;text_color=CBD5E1&amp;icon_color=F59E0B&amp;border_color=164E63&amp;border_radius=12" alt="Denis's GitHub statistics" />
-  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanGiun&amp;layout=compact&amp;langs_count=8&amp;bg_color=0B1020&amp;title_color=22D3EE&amp;text_color=CBD5E1&amp;border_color=164E63&amp;border_radius=12" alt="Denis's most used languages" />
-
-  <br />
-
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=DanGiun&amp;bg_color=0B1020&amp;color=CBD5E1&amp;line=22D3EE&amp;point=F59E0B&amp;area=true&amp;area_color=164E63&amp;hide_border=true&amp;radius=12&amp;custom_title=Engineering%20Activity" alt="Denis's GitHub activity graph" />
-
-</div>
 
 ## 🐍 Consistency, visualized
 
