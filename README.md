@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;height=240&amp;color=0:0B1020,48:164E63,100:22D3EE&amp;text=DENIS%20GIUN&amp;fontColor=E6F7FF&amp;fontSize=54&amp;fontAlignY=38&amp;desc=QA%20Automation%20Engineer%20%7C%20Python%20Developer%20%7C%20Quality%20Engineering&amp;descAlignY=60&amp;descSize=19&amp;animation=fadeIn" alt="Denis — QA Automation Engineer and Python Developer" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;height=240&amp;color=0:0B1020,48:164E63,100:22D3EE&amp;text=DENIS&amp;fontColor=E6F7FF&amp;fontSize=54&amp;fontAlignY=38&amp;desc=QA%20Automation%20Engineer%20%7C%20Python%20Developer%20%7C%20Quality%20Engineering&amp;descAlignY=60&amp;descSize=19&amp;animation=fadeIn" alt="Denis — QA Automation Engineer and Python Developer" />
 
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=22&amp;duration=2700&amp;pause=900&amp;color=22D3EE&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;width=800&amp;height=70&amp;lines=I+turn+quality+risks+into+reliable+automation;I+build+Python+tools+that+make+failures+obvious;I+help+teams+ship+with+confidence" alt="Animated introduction" />
