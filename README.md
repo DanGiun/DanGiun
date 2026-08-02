@@ -44,15 +44,6 @@ I’m most useful where product risk becomes a technical problem: designing test
 
 ## 🚀 Featured engineering work
 
-<p align="center">
-  <a href="https://github.com/DanGiun/web-testing-framework">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=DanGiun&amp;repo=web-testing-framework&amp;bg_color=0B1020&amp;title_color=22D3EE&amp;text_color=CBD5E1&amp;icon_color=F59E0B&amp;border_color=164E63&amp;border_radius=12" alt="web-testing-framework repository card" />
-  </a>
-  <a href="https://github.com/DanGiun/log-monitor">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=DanGiun&amp;repo=log-monitor&amp;bg_color=0B1020&amp;title_color=22D3EE&amp;text_color=CBD5E1&amp;icon_color=F59E0B&amp;border_color=164E63&amp;border_radius=12" alt="log-monitor repository card" />
-  </a>
-</p>
-
 ### 🧪 [Playwright + pytest E2E Framework](https://github.com/DanGiun/web-testing-framework)
 
 A production-like cross-browser E2E framework for a React, Node.js, and PostgreSQL application — built to keep tests readable, independent, and useful when something breaks.
