@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="230" viewBox="0 0 1100 230" role="img" aria-labelledby="title desc">
+  <title id="title">Quality Engineering Loop</title>
+  <desc id="desc">An animated pipeline moving from prevent to automate to observe to deliver.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1020" />
+      <stop offset="0.48" stop-color="#0F1B2D" />
+      <stop offset="1" stop-color="#10253A" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16233A" stop-opacity="0.96" />
+      <stop offset="1" stop-color="#0D1728" stop-opacity="0.96" />
+    </linearGradient>
+    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" />
+      <stop offset="0.34" stop-color="#34D399" />
+      <stop offset="0.68" stop-color="#F59E0B" />
+      <stop offset="1" stop-color="#A78BFA" />
+    </linearGradient>
+    <filter id="glow" x="-250%" y="-250%" width="600%" height="600%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="soft-shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#020617" flood-opacity="0.45" />
+    </filter>
+    <style>
+      .label { font: 700 12px Inter, "Segoe UI", Arial, sans-serif; letter-spacing: 1.8px; }
+      .heading { font: 700 19px Inter, "Segoe UI", Arial, sans-serif; fill: #F8FAFC; }
+      .detail { font: 500 12px Inter, "Segoe UI", Arial, sans-serif; fill: #94A3B8; }
+      .kicker { font: 700 12px Inter, "Segoe UI", Arial, sans-serif; fill: #CBD5E1; letter-spacing: 3px; }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="1098" height="228" rx="22" fill="url(#background)" stroke="#164E63" stroke-opacity="0.65" />
+  <circle cx="93" cy="27" r="3" fill="#22D3EE" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite" />
+  </circle>
+  <text x="110" y="31" class="kicker">QUALITY ENGINEERING LOOP</text>
+
+  <path d="M142 191 H958" fill="none" stroke="#334155" stroke-width="2" stroke-linecap="round" />
+  <path d="M142 191 H958" fill="none" stroke="url(#rail)" stroke-width="2" stroke-linecap="round" stroke-dasharray="8 12" opacity="0.85">
+    <animate attributeName="stroke-dashoffset" from="40" to="0" dur="2.2s" repeatCount="indefinite" />
+  </path>
+
+  <g stroke-width="2">
+    <path d="M142 160 V191" stroke="#22D3EE" opacity="0.65" />
+    <path d="M414 160 V191" stroke="#34D399" opacity="0.65" />
+    <path d="M686 160 V191" stroke="#F59E0B" opacity="0.65" />
+    <path d="M958 160 V191" stroke="#A78BFA" opacity="0.65" />
+  </g>
+
+  <g filter="url(#soft-shadow)">
+    <rect x="24" y="52" width="236" height="108" rx="16" fill="url(#panel)" stroke="#22D3EE" stroke-opacity="0.45">
+      <animate attributeName="stroke-opacity" values="0.35;1;0.35" dur="5s" begin="0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="296" y="52" width="236" height="108" rx="16" fill="url(#panel)" stroke="#34D399" stroke-opacity="0.45">
+      <animate attributeName="stroke-opacity" values="0.35;1;0.35" dur="5s" begin="1.25s" repeatCount="indefinite" />
+    </rect>
+    <rect x="568" y="52" width="236" height="108" rx="16" fill="url(#panel)" stroke="#F59E0B" stroke-opacity="0.45">
+      <animate attributeName="stroke-opacity" values="0.35;1;0.35" dur="5s" begin="2.5s" repeatCount="indefinite" />
+    </rect>
+    <rect x="840" y="52" width="236" height="108" rx="16" fill="url(#panel)" stroke="#A78BFA" stroke-opacity="0.45">
+      <animate attributeName="stroke-opacity" values="0.35;1;0.35" dur="5s" begin="3.75s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <g>
+    <circle cx="52" cy="78" r="6" fill="#22D3EE" filter="url(#glow)" />
+    <text x="68" y="82" class="label" fill="#22D3EE">01 · PREVENT</text>
+    <text x="48" y="116" class="heading">Testable design</text>
+    <text x="48" y="140" class="detail">Remove risk before execution</text>
+  </g>
+
+  <g>
+    <circle cx="324" cy="78" r="6" fill="#34D399" filter="url(#glow)" />
+    <text x="340" y="82" class="label" fill="#34D399">02 · AUTOMATE</text>
+    <text x="320" y="116" class="heading">Repeatable checks</text>
+    <text x="320" y="140" class="detail">Fast, isolated, maintainable</text>
+  </g>
+
+  <g>
+    <circle cx="596" cy="78" r="6" fill="#F59E0B" filter="url(#glow)" />
+    <text x="612" y="82" class="label" fill="#F59E0B">03 · OBSERVE</text>
+    <text x="592" y="116" class="heading">Actionable failures</text>
+    <text x="592" y="140" class="detail">Turn symptoms into answers</text>
+  </g>
+
+  <g>
+    <circle cx="868" cy="78" r="6" fill="#A78BFA" filter="url(#glow)" />
+    <text x="884" y="82" class="label" fill="#A78BFA">04 · DELIVER</text>
+    <text x="864" y="116" class="heading">Release confidence</text>
+    <text x="864" y="140" class="detail">Ship faster with clear signals</text>
+  </g>
+
+  <circle r="5" fill="#F8FAFC" filter="url(#glow)">
+    <animateMotion dur="5s" repeatCount="indefinite" path="M142 191 H958" />
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.92;1" dur="5s" repeatCount="indefinite" />
+  </circle>
+  <circle r="3" fill="#22D3EE" filter="url(#glow)">
+    <animateMotion dur="5s" begin="2.5s" repeatCount="indefinite" path="M142 191 H958" />
+    <animate attributeName="opacity" values="0;0.85;0.85;0" keyTimes="0;0.08;0.92;1" dur="5s" begin="2.5s" repeatCount="indefinite" />
+  </circle>
+
+  <g fill="#E2E8F0">
+    <path d="M273 186 L281 191 L273 196 Z" opacity="0.65" />
+    <path d="M545 186 L553 191 L545 196 Z" opacity="0.65" />
+    <path d="M817 186 L825 191 L817 196 Z" opacity="0.65" />
+  </g>
+</svg>
